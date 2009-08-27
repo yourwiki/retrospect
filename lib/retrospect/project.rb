@@ -7,7 +7,6 @@ module Retrospect
     property :permalink,  String
     property :repo,       URI,      :nullable => false, :length => 255
     property :branch,     String,   :nullable => true,  :default => "master"
-    property :public,     Boolean,  :default => true
     
     has n, :commits, :class_name => "Retrospect::Commit"
     
