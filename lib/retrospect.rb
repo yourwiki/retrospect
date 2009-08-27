@@ -1,7 +1,10 @@
 require 'sinatra/base'
 require 'dm-core'
+require 'dm-types'
+require 'dm-timestamps'
 
 require 'retrospect/app'
+require 'retrospect/author'
 require 'retrospect/project'
 require 'retrospect/commit'
 
