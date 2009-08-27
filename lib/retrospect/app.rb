@@ -1,5 +1,5 @@
 module Retrospect
-  class App < Sinata::Base
+  class App < Sinatra::Base
     
   end
 end
